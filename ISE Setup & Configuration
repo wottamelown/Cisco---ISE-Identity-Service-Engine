@@ -1,1 +1,25 @@
-ISE Basic 
+ISE Basic CLI Commands
+
+# sign == executive mode 
+# (terminal) == configuration mode
+config terminal == configuration mode
+
+--executive mode commands--
+cls / ctrl+l == clear screen
+application start = start an application
+show application status ise == show all apps running
+application stop = stop an application
+? == help same like cisco routers and switches
+set clock H:M:S:YYYY = set date and time
+copy running-config startup-config == save
+copy startup-config running-config == restore
+show running-config == show all the configuration details
+debug ? /debug all == show logs for debugging
+undebug all == exit debugging mode 
+reload == reboot
+halt == shutdown
+password == change password 
+ping == ping 
+traceroute == check routes to ip/domain
+ssh == connect ssh to other machine
+
