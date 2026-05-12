@@ -22,5 +22,19 @@ password == change password
 ping == ping 
 traceroute == check routes to ip/domain
 ssh == connect ssh to other machine
+show interface g0 == shows info about interface and IP. 
+show ip route == check all routes
+show backup statu == shows backup 
+show cdp neigbour == shows neighbours for cdp
+show clock == clock
+show uptime == shows how much time is working
+shows users == shows number of users logged in 
+show version == current v
 
-
+-- configuration mode --
+config terminal == terminal access
+interface xx == gets into the interface
+ip address xx xx == changes the ip address of the int. 
+no shut == up the port. 
+ip default-gateway xxxxx == set default gateway. 
+username xxxx password xxxx role admin/user == to create new user and assign role. 
