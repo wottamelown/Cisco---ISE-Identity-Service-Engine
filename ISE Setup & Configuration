@@ -38,3 +38,14 @@ ip address xx xx == changes the ip address of the int.
 no shut == up the port. 
 ip default-gateway xxxxx == set default gateway. 
 username xxxx password xxxx role admin/user == to create new user and assign role. 
+
+== NOTES ==
+-- Checking and Assigning Personas --
+
+We have 4 personas (Administration, Monitoring, Policy Services, pxGrid)
+
+1. PAN (policy Administration Node) responsible for managing policy and configurations.
+2. MnT (Monitoring) resposible for monitoring 
+3. PSN (Policy Service Node) resposible for enforcing policies and providing network access. 
+
+-- We can assign px grid from personas 
