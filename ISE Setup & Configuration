@@ -39,6 +39,10 @@ no shut == up the port.
 ip default-gateway xxxxx == set default gateway. 
 username xxxx password xxxx role admin/user == to create new user and assign role. 
 
+
+
+
+
 == NOTES ==
 -- Checking and Assigning Personas --
 
@@ -49,3 +53,13 @@ We have 4 personas (Administration, Monitoring, Policy Services, pxGrid)
 3. PSN (Policy Service Node) resposible for enforcing policies and providing network access. 
 
 -- We can assign px grid from personas 
+
+-- Roles --
+
+We have three types of roles
+1. Primary
+2. Secondary
+3. Standalone
+
+We can make administration or monitoring as primary or secondary roles. PSNs never get primary or secondary. 
+
