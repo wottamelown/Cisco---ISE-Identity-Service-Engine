@@ -66,6 +66,16 @@ We can make administration or monitoring as primary or secondary roles. PSNs nev
 -- Identities --
 
 Identitites are ways to identify the users, whether it could be MAC, email, LDAP, SAML, CS, Internal & External connectors for identity. 
+Identity database stores the credentials to authenticate. 
+
+-- CISCO ISE Licensing --
+
+1. Cisco comes in SNS physical Hardware and a VM. (UCS C220 Rack Server)
+
+-- Certificates --
+
+1. CISCO ISE uses Admin Certificates to secure a connection between admin and ISE. 
+2. ISE uses EAP certificates
 
 
 
