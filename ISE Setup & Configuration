@@ -75,7 +75,13 @@ Identity database stores the credentials to authenticate.
 -- Certificates --
 
 1. CISCO ISE uses Admin Certificates to secure a connection between admin and ISE. 
-2. ISE uses EAP certificates
+2. ISE uses EAP certificates  which is for communication between end points like mobile, laptop. etc. 
+3. ISE users Portal ceritificates which is for guest portal, device authentication portal. basically end user portal. 
+4. ISE uses wildcard portal which uses * like *.google.com
+
+== STEPS to Add Cert== will come here
+
+-- Active Directory Integration with ISE --
 
 
 
