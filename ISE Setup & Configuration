@@ -63,3 +63,9 @@ We have three types of roles
 
 We can make administration or monitoring as primary or secondary roles. PSNs never get primary or secondary. 
 
+-- Identities --
+
+Identitites are ways to identify the users, whether it could be MAC, email, LDAP, SAML, CS, Internal & External connectors for identity. 
+
+
+
