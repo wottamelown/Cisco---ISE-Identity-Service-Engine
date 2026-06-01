@@ -89,6 +89,21 @@ Ise works on patches the latest patch usually consists of all the desired compon
 
 == SCREENSHOT OF PATCH ==
 
+-- Backups --
+
+1. ISE has 2 types of backups Configurational Backup and Operational backup. 
+2. Conifguration backup takes backup of settings. 
+3. Operational Backups takes backup of logs and other data
+4. Backup doesn't include the Certificates. 
+
+== SNIP of BACKUP AREA ==
+
+-- Exporting & Importing the Certificates --
+1. We can import and export the certificates through CLI and GUI
+2. CLI Command: application configure ise
+3. First we will import trusted certs, then system certs. 
+
+== GUI export and import SNIP ==
 
 
 
