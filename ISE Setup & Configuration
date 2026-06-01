@@ -82,6 +82,13 @@ Identity database stores the credentials to authenticate.
 == STEPS to Add Cert== will come here
 
 -- Active Directory Integration with ISE --
+Add the Ldap we can add SAML also but in new versions. v3.x
+
+-- Patches --
+Ise works on patches the latest patch usually consists of all the desired component of the previous patches. 
+
+== SCREENSHOT OF PATCH ==
+
 
 
 
