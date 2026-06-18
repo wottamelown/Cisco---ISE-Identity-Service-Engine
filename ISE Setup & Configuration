@@ -111,6 +111,13 @@ Ise works on patches the latest patch usually consists of all the desired compon
 -- SW Device addition to ISE --
 == SNIP of network device addition in ISE SW2 ==
 
---
+-- Policy Sets --
+1. we will go to Work Centers > Network Access > Policy Sets to create our policy.
+2. Then we need to add a new policy and set conditions according to demand i.e. Wired_802.1x.
+3. Then we will view the policy and check authentication policy and select our own sequence which we made before. 
+4. Then we will select the condition wired or wireless or other. 
+5. Once the polocy has been set we can push the GPO to the domain computers by creating policy.
+
+== SNIP of whole points related to Policy Sets goes here ==
 
 
