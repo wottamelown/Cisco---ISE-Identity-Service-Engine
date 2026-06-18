@@ -105,5 +105,12 @@ Ise works on patches the latest patch usually consists of all the desired compon
 
 == GUI export and import SNIP ==
 
+-- SW Configuration 802.1x --
+== SNIP of Cisco Switch Configuration ==
+
+-- SW Device addition to ISE --
+== SNIP of network device addition in ISE SW2 ==
+
+--
 
 
