@@ -122,4 +122,11 @@ Ise works on patches the latest patch usually consists of all the desired compon
 
 == SNIP of whole points related to Policy Sets goes here ==
 
+-- DACLs (Dynamic Access Control Lists) --
+1. DACLs are used to control or limit the users to specific servers using switches. 
+2. This can be pushed to 1000s of switches at once.
+3. The restriction happens on switch level. 
+
+== SNIP of acl working in ISE ==
+
 
