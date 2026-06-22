@@ -129,4 +129,9 @@ Ise works on patches the latest patch usually consists of all the desired compon
 
 == SNIP of acl working in ISE ==
 
+-- Certificate Based Authentication --
+1. CBA works as if to enforce the ZTNA so that if the user credentials are leaked, and someone tries to login using the credentials. It won't work. 
+2. For CBA to work, we need to create certificate templates from CA in win SVR. 
+3. For Users we will duplicate user authentication, for machines we will duplicate workstation authentication certificate. 
+4. 
 
