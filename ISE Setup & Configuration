@@ -134,5 +134,8 @@ Ise works on patches the latest patch usually consists of all the desired compon
 2. For CBA to work, we need to create certificate templates from CA in win SVR. 
 3. For Users we will duplicate user authentication, for machines we will duplicate workstation authentication certificate. 
 4. We will enable these 2 certificates, and then push using GPO. 
-5. Then we will add a policy in ISE that if the user is authenticated
+5. Then we will add a policy in ISE that if the user is authenticated.
+6. We will verify both the certs in the machine using mmc/certmgr.msc/certlm.msc > personal.
+7. Once the certificates are pushed correctly we will create a profile in ISE from external identity sources > Certificate Authentication Profile.
+8. Then we will add the created profile in the identity Source sequence under Certificate Based Authentication. 
 
