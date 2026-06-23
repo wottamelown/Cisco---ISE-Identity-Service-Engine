@@ -138,4 +138,7 @@ Ise works on patches the latest patch usually consists of all the desired compon
 6. We will verify both the certs in the machine using mmc/certmgr.msc/certlm.msc > personal.
 7. Once the certificates are pushed correctly we will create a profile in ISE from external identity sources > Certificate Authentication Profile.
 8. Then we will add the created profile in the identity Source sequence under Certificate Based Authentication. 
+9. Then we will create a policy for allowed protocols, Policy > Results. 
+10. Then we will create a new policy set for authentication rule that external users domain. 
+11. Then we will create separate rule for machine authorization and user authorization. 
 
