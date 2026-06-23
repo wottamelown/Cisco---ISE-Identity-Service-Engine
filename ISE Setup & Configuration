@@ -140,5 +140,5 @@ Ise works on patches the latest patch usually consists of all the desired compon
 8. Then we will add the created profile in the identity Source sequence under Certificate Based Authentication. 
 9. Then we will create a policy for allowed protocols, Policy > Results. 
 10. Then we will create a new policy set for authentication rule that external users domain. 
-11. Then we will create separate rule for machine authorization and user authorization. 
+11. Then we will create separate rule for machine authorization and user authorization. g
 
