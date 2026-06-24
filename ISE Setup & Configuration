@@ -140,5 +140,11 @@ Ise works on patches the latest patch usually consists of all the desired compon
 8. Then we will add the created profile in the identity Source sequence under Certificate Based Authentication. 
 9. Then we will create a policy for allowed protocols, Policy > Results. 
 10. Then we will create a new policy set for authentication rule that external users domain. 
-11. Then we will create separate rule for machine authorization and user authorization. g
+11. Then we will create separate rule for machine authorization and user authorization. 
+
+-- MAB Media Access Control Auhhentication Bypass --
+
+1. We use this when the device is not 802.1X compatible. 
+2. This allows devices to connect with network and assign a safe restricted vlan. 
+3. Context Visibility > Assign the device desired profile. So next authentication will not occur. 
 
